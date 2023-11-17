@@ -86,6 +86,19 @@
     @apply rounded-full border border-black bg-transparent py-1.5 px-5 text-black transition-all hover:bg-black hover:text-white text-center text-sm font-inter flex items-center justify-center;
 }
 
+.pagi_black_btn {
+    @apply rounded-full border border-black bg-black w-10 h-10 text-white transition-all
+   hover:bg-white hover:text-black text-center text-sm font-inter flex items-center justify-center;
+}
+
+.pagi_outline_btn {
+    @apply rounded-full border border-black bg-transparent w-10 h-10 text-black transition-all hover:bg-black hover:text-white text-center text-sm font-inter flex items-center justify-center;
+}
+
+.pagi_dots {
+    @apply w-10 h-10 text-black text-center text-sm font-inter flex items-center justify-center;
+}
+
 .head_text {
     @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;
 }
